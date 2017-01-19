@@ -7,3 +7,8 @@
 
 # NFC
 /dev/pn54.*                                              u:object_r:nfc_device:s0
+
+# FingerPrint
+/dev/fpc1080                                            u:object_r:vcsFPService_device:s0
+
+/system/bin/vcsFPService                                u:object_r:vcsFPService_exec:s0
