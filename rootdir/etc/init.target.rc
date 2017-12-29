@@ -325,10 +325,10 @@ service audiod /system/bin/audiod
    user system
    group system
 
-service wcnss-service /system/bin/wcnss_service
+service wcnss-service /vendor/bin/wcnss_service
     class late_start
     user system
-    group system wifi qcom_diag radio
+    group system wifi oem_2950  radio
     oneshot
 
 service usf_tester /system/bin/usf_tester
