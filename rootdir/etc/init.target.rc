@@ -106,6 +106,13 @@ on boot
     chown system radio /dev/touch_fops
 
     # Pantech LED
+
+    # EF65S Key LED
+    chmod 0660 /sys/class/leds/kpdbl_menu/brightness
+    chown system radio /sys/class/leds/kpdbl_menu/brightness	
+    chmod 0660 /sys/class/leds/kpdbl_back/brightness
+    chown system radio /sys/class/leds/kpdbl_back/brightness
+
     chmod 0660 /sys/class/leds/lp5523:channel0/brightness
     chmod 0660 /sys/class/leds/lp5523:channel1/brightness
     chmod 0660 /sys/class/leds/lp5523:channel2/brightness
