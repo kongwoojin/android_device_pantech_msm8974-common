@@ -37,7 +37,7 @@ mm.enable.qcom_parser=37491
 media.aac_51_output_enabled=true
 
 # Bluetooth
-qcom.bluetooth.soc=smd
+vendor.qcom.bluetooth.soc=pronto
 ro.bluetooth.hfp.ver=1.7
 ro.qualcomm.bt.hci_transport=smd
 
