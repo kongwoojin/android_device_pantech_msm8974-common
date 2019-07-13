@@ -117,8 +117,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcomvoiceprocessingdescriptors \
-    tinymix
+    libqcomvoiceprocessingdescriptors
 
 # BoringSSL compatability wrapper
 PRODUCT_PACKAGES += \
