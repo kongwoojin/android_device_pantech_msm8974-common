@@ -185,10 +185,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     keystore.msm8974
 
-# Lights
-PRODUCT_PACKAGES += \
-     android.hardware.light@2.0-service.msm8974
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/vendor/etc/media_codecs.xml \
